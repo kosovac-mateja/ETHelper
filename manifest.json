@@ -20,5 +20,9 @@
             ]
         }
     ],
+    "action": {
+        "default_title": "ETHelper",
+        "default_popup": "index.html"
+      },
     "manifest_version": 3
 }
