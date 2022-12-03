@@ -243,7 +243,12 @@ window.addEventListener('keydown', function (ev) {
                 return;
             }
         }
-        this.confirm('Selected word is not in the official Solidity documentation.');
+        if(this.confirm('Selected word is not in the official Solidity documentation.\n Press OK if you want to try searching Solidity documentation!')){
+            for(let i = 0; i < text.length; i++)
+                if(text[i] == ' ')
+                    text[i] = '+';
+            this.window.open('https://solang.readthedocs.io/en/latest/search.html?q=' + text + '&check_keywords=yes&area=default');
+        }
     }
 }, false);
 
