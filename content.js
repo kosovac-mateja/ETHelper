@@ -1,14 +1,15 @@
 // kad se ucita stranica
-(async () => {
-    const results = await Promise.all(urls.map(processUrl));
-    console.log(results);
-})();
+// function getSelectionText() {
+//     var text = "";
+//     if (window.getSelection) {
+//         text = window.getSelection().toString();
+//     } else if (document.selection && document.selection.type != "Control") {
+//         text = document.selection.createRange().text;
+//     }
+//     console.log(text);
+//     return text;
+// }
 
-async function processUrl(url) {
-    try {
-        const text = await (await fetch(url)).text();
-        return { url, text, status: detecting(text) };
-    } catch (error) {
-        return { url, error };
-    }
-}
+// document.onmouseup = document.onkeyup = document.onselectionchange = function() {
+//     console.log(getSelectionText());
+//   };
