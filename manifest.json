@@ -10,6 +10,11 @@
     "background": {
         "service_worker": "background.js"
     },
+    "icons": {
+        "128": "png128.png",
+        "48": "png48.png",
+        "16": "png16.png"
+    },
     "content_scripts": [
         {
             "matches": [
