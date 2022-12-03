@@ -1,6 +1,26 @@
 body {
     background-color: grey;
+    width: 500px;
+            height: 300px;
+            overflow: hidden
 }
+h2{
+    color:azure;
+    text-align: left;
+    font-size: 18px;
+}
+li{
+    font-family: Georgia, serif;
+    font-size: 26px;
+    color: azure;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
 .switch {
     position: relative;
     display: inline-block;
@@ -54,7 +74,7 @@ body {
   
   /* Rounded sliders */
   .slider.round {
-    border-radius: 34px;
+    border-radius: 28px;
   }
   
   .slider.round:before {
