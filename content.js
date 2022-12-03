@@ -238,10 +238,12 @@ window.addEventListener('keydown', function (ev) {
             text = document.selection.createRange().text;
         }
         for (let i = 0; i < data.length; i++) {
-            if (text == data[i].Keyword)
-                //console.log(data[i].Address);//ovo hiperlinkujes
+            if (text.trim() == data[i].Keyword) {
                 this.window.open(data[i].Address);
+                return;
+            }
         }
+        this.confirm('Selected word is not in the official Solidity documentation.');
     }
 }, false);
 
