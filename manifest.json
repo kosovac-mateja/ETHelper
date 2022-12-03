@@ -1,5 +1,5 @@
 {
-    "name": "ETHelpet",
+    "name": "ETHelper",
     "version": "1.0.0",
     "description": "Remix documentation search",
     "permissions": ["storage", "tabs","activeTab"],
