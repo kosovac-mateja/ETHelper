@@ -8,7 +8,3 @@ function getSelectionText() {
     }
     return text;
 }
-
-document.onmouseup = document.onkeyup = document.onselectionchange = function() {
-    console.log(getSelectionText());
-  };
