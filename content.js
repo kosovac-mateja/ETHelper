@@ -9,18 +9,15 @@ function getSelectionText() {
     return text;
 }
 
-// addEventListener(e, getSelectionText)
-
-
 let text = "";
-window.addEventListener('contextmenu', function(ev) {
-    ev.preventDefault();
-    if (this.window.getSelection) {
-        text = this.window.getSelection().toString();
-    } else if (document.selection && document.selection.type != "Control") {
-        text = document.selection.createRange().text;
+window.addEventListener('keydown', function (ev) {
+    if (ev.ctrlKey && ev.shiftKey && ev.altKey) {
+        // ev.preventDefault();
+        if (this.window.getSelection) {
+            text = this.window.getSelection().toString();
+        } else if (document.selection && document.selection.type != "Control") {
+            text = document.selection.createRange().text;
+        }
+        console.log(text);
     }
-    console.log(text);
 }, false);
-
-console.log(text);
