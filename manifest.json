@@ -6,5 +6,10 @@
     "background": {
       "service_worker": "background.js"
     },
+    "content_scripts":[
+        {
+          "js": ["content.js"]
+        }
+      ],
     "manifest_version": 3
   }
