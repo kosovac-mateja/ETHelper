@@ -502,7 +502,7 @@ let data = [
     {
      "Keyword": "memory",
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#dynamic-length-arrays"
-    },
+    }
    ];
 
 function getSelectionText() {
