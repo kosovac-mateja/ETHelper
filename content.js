@@ -243,7 +243,7 @@ window.addEventListener('keydown', function (ev) {
                 return;
             }
         }
-        if(this.confirm('Selected word is not in the official Solidity documentation.\n Press OK if you want to try searching Solidity documentation!')){
+        if(this.confirm('Selected word is not in the official Solidity documentation.\nPress OK if you want to try searching Solidity documentation!')){
             for(let i = 0; i < text.length; i++)
                 if(text[i] == ' ')
                     text[i] = '+';
@@ -251,4 +251,5 @@ window.addEventListener('keydown', function (ev) {
         }
     }
 }, false);
+
 
