@@ -288,7 +288,7 @@ let data = [
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#fixed-length-byte-arrays"
     },
     {
-     "Keyword": "byte ",
+     "Keyword": "byte",
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#fixed-length-byte-arrays"
     },
     {
@@ -344,11 +344,11 @@ let data = [
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#function-types"
     },
     {
-     "Keyword": "storage ",
+     "Keyword": "storage",
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#storage-references"
     },
     {
-     "Keyword": "type ",
+     "Keyword": "type",
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#user-defined-types"
     },
     {
@@ -396,7 +396,7 @@ let data = [
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/contracts.html#virtual-functions"
     },
     {
-     "Keyword": "override ",
+     "Keyword": "override",
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/contracts.html#virtual-functions"
     },
     {
@@ -420,11 +420,11 @@ let data = [
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/functions.html#functions"
     },
     {
-     "Keyword": "public ",
+     "Keyword": "public",
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/functions.html#functions"
     },
     {
-     "Keyword": "private ",
+     "Keyword": "private",
      "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/functions.html#functions"
     },
     {
@@ -461,12 +461,48 @@ let data = [
     },
     {
      "Keyword": "continue",
-     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/yul_language\/statements.html#for-loop"
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/statements.html#for-statements"
     },
     {
      "Keyword": "break",
-     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/yul_language\/statements.html#for-loop"
-    }
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/statements.html#for-statements"
+    },
+    {
+     "Keyword": "if",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/statements.html#if-statement"
+    },
+    {
+     "Keyword": "else",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/statements.html#if-statement"
+    },
+    {
+     "Keyword": "emit",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/events.html#events"
+    },
+    {
+     "Keyword": "constructor",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/contracts.html#constructors-and-contract-instantiation"
+    },
+    {
+     "Keyword": "return",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/functions.html#arguments-passing-and-return-values"
+    },
+    {
+     "Keyword": "view",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/functions.html#state-mutability"
+    },
+    {
+     "Keyword": "pure",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/functions.html#state-mutability"
+    },
+    {
+     "Keyword": "uint256",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#integer-types"
+    },
+    {
+     "Keyword": "memory",
+     "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#dynamic-length-arrays"
+    },
    ];
 
 function getSelectionText() {
@@ -502,5 +538,3 @@ window.addEventListener('keydown', function (ev) {
         }
     }
 }, false);
-
-
