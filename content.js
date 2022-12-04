@@ -509,7 +509,6 @@ const data = [
 window.addEventListener('keydown', function (ev) {
     let text = "";
     if (ev.ctrlKey && ev.shiftKey && ev.altKey) {
-        // ev.preventDefault();
         if (this.window.getSelection) {
             text = this.window.getSelection().toString();
         } else if (document.selection && document.selection.type != "Control") {
