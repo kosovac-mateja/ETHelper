@@ -1,4 +1,4 @@
-let data = [
+const data = [
     {
         "Keyword": "gasleft",
         "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/builtins.html#gasleft-returns-uint64"
@@ -504,6 +504,7 @@ let data = [
         "Address": "https:\/\/solang.readthedocs.io\/en\/latest\/language\/types.html#dynamic-length-arrays"
     }
 ];
+
 
 window.addEventListener('keydown', function (ev) {
     let text = "";
