@@ -19,7 +19,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://remix.ethereum.org/*"
+                "<all_urls>"
             ],
             "js": [
                 "content.js"
